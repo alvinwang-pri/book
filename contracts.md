@@ -13,9 +13,9 @@
     >当事务成功执行之后，它对数据库所做的更新必须永久保存下来，即使发生了系统崩溃，重新启动后数据库将恢复到事务执行成功之后的状态。
 ##InnoDB 事务实现原理
 本地事务由资源管理器管理
-![本地事务](../imgs/mysql-transaction.png)
+![本地事务](imgs/mysql-transaction.png)
    
-而数据库的ACID 是通过InnoDB日志和[锁](../locks/Locks.MD)来保证。事务的隔离性是通过数据库锁机制实现的，持久性通过Redo log 来实现，原子性和一致性通过Undo log 实现。
+而数据库的ACID 是通过InnoDB日志和[锁](locks/Locks.MD)来保证。事务的隔离性是通过数据库锁机制实现的，持久性通过Redo log 来实现，原子性和一致性通过Undo log 实现。
 
 Undo log 的原理很简单，为了满足事务的原子性，在操作之前，先将数据进行备份到undo log，然后再进行数据修改，如果出现了错误或者用户执行rollback 语句，系统系统从undo log\n
 中的备份数据恢复到事务开始之前的状态。
@@ -38,7 +38,7 @@ Undo log 的原理很简单，为了满足事务的原子性，在操作之前�
 ###Service 多节点
 随着互联网技术的发展，微服务化已成为常态。一个简单的例子，用户资产分为多个部分，比如余额、积分、优惠券等等，在公司内部可能不同的资产就由不同的Service
 开发维护，这样的话，如果余额扣减成功积分能否扣减成功。
-![分布式系统](../imgs/distrubite_sample-1.png)
+![分布式系统](imgs/distrubite_sample-1.png)
 
 ###Resource 多节点
 

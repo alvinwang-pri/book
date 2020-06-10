@@ -23,7 +23,7 @@ Undo log 的原理很简单，为了满足事务的原子性，在操作之前�
 与undo log 正好相反，redo log记录的是新数据的备份。在事务提交之前，只要将redo log 持久化即可，不需要将数据持久化，当系统崩溃时，虽然数据没有持久化，但是redo log已经
 持久化，系统可以根据redo log 进行恢复到最新状态。
 
-[ACID实现原理](./ACID%20principle.MD)
+[ACID实现原理](ACID%20principle.MD)
 
 #分布式事务
 
