@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fec68935-abca-464b-b4ec-3c11ec98ca38" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/docs/contracts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/elasticsearch/常见问题修复.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/locks/Locks.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/mysql/ACID principle.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/mysql/Transactional.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/redis/Redis简介.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/rust/TODO.md" afterDir="false" />
+    <list default="true" id="fec68935-abca-464b-b4ec-3c11ec98ca38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JVM" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JVM" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +36,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/imgs" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/imgs" />
     </key>
   </component>
@@ -99,7 +92,7 @@
       <workItem from="1587891936574" duration="2017000" />
       <workItem from="1587896264061" duration="607000" />
       <workItem from="1589885803576" duration="1868000" />
-      <workItem from="1591771251140" duration="280000" />
+      <workItem from="1591771251140" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1571737210168</created>
@@ -122,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571796554161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aaa">
+      <created>1591771858969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591771858969</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bbb">
+      <created>1591771973383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591771973383</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update contracts">
+      <created>1591772053451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591772053451</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,21 +149,24 @@
     </ignored-roots>
     <MESSAGE value="a" />
     <MESSAGE value="add docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docs" />
+    <MESSAGE value="aaa" />
+    <MESSAGE value="bbb" />
+    <MESSAGE value="update contracts" />
+    <option name="LAST_COMMIT_MESSAGE" value="update contracts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2342" y="675" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587892036891">
       <screen x="1680" y="23" width="2560" height="1370" />
     </state>
     <state x="2342" y="675" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.2560.1370/0.23.1680.1027@1680.23.2560.1370" timestamp="1587892036891" />
-    <state x="2487" y="267" key="CommitChangelistDialog2" timestamp="1591771858729">
+    <state x="2487" y="267" key="CommitChangelistDialog2" timestamp="1591772053295">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
-    <state x="2487" y="267" key="CommitChangelistDialog2/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1591771858729" />
-    <state x="2460" y="408" key="Vcs.Push.Dialog.v2" timestamp="1591771920976">
+    <state x="2487" y="267" key="CommitChangelistDialog2/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1591772053295" />
+    <state x="2460" y="408" key="Vcs.Push.Dialog.v2" timestamp="1591772055439">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
-    <state x="2460" y="408" key="Vcs.Push.Dialog.v2/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1591771920976" />
+    <state x="2460" y="408" key="Vcs.Push.Dialog.v2/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1591772055439" />
     <state x="2728" y="577" key="git4idea.rebase.GitRebaseDialog" timestamp="1591771901148">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
